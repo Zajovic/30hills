@@ -18,7 +18,7 @@ const fs = require("fs");
     });
 })();
 
-function xFunction(jsonFile) {
+function inputName(jsonFile) {
     const readline = require("readline").createInterface({
         input: process.stdin,
         output: process.stdout
